@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Hai Inemm 😊</title>
 </head>
 
@@ -43,7 +43,7 @@
         <!------------------------modal kedua ------------------------------------------->
 
         <div class="wrap2">
-            <a href="#modal-one2" class="btn btn-big2">Tidak</a>
+            <a href="#modal-one2" onclick="klikTidak()" class="btn btn-big2">Tidak</a>
         </div>
 
          <div class="modal2" id="modal-one2" arial-hidden="true">
@@ -74,4 +74,12 @@
 
     
 </body>
+<script>
+    function klikIya(){
+        $.get('https://api.gunapedia.com/nembak?pesan=Diterima')
+    }
+    function klikTidak(){
+        $.get('https://api.gunapedia.com/nembak?pesan=Ditolak')
+    }
+</script>
 </html>
