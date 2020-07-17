@@ -1,2 +1,2 @@
-# hanifgani.github.io
-script buat nembak cewe
+# Halo 😥
+Duh deg-degan pingin tau reaksinya
